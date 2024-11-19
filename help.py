@@ -33,7 +33,7 @@ def text_to_speech(text):
 def llm_model_object(user_text):
     #model = "models/gemini-pro"
     
-    genai.configure(api_key='AIzaSyDFRjqJh9PUrBXclbyICiNGfaKZ3Om6Lu0')
+    genai.configure(api_key='')
     
     model = genai.GenerativeModel('gemini-1.5-flash', )
     
